@@ -10,7 +10,7 @@
 */
 
 
-function load_all_comments(){
+function loadAllComments(){
   let load_more = document.querySelector('._m3m1c._1s3cd')
 
   setInterval(() => {
@@ -21,7 +21,7 @@ function load_all_comments(){
   }, 300)
 }
 
-function randomize_winner(){
+function randomizeWinner(){
   let participants = []
 
   let commenters = document.querySelectorAll('._2g7d5.notranslate._95hvo')
