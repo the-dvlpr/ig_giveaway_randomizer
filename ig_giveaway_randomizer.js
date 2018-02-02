@@ -38,7 +38,6 @@ async function randomizeWinner(){
     }
   }
 
-  participants.shift()
   console.log('Number of Entries: ' + participants.length)
 
   let display = document.createElement('div')
